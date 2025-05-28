@@ -35,9 +35,7 @@ export default function Header() {
                 text-sm font-light transition-all duration-300 ease-in-out 
                 ${open ? 'block' : 'hidden md:flex'}
             `}>
-                <Link href="/" className='hover:text-[#4E60BC] transition-colors'>Home</Link>
-                <Link href="/about" className='hover:text-[#4E60BC] transition-colors'>Sobre</Link>
-                <Link href="/contact" className='hover:text-[#4E60BC] transition-colors'>Contato</Link>
+                <Link href="/sobre" className='hover:text-[#4E60BC] transition-colors'>Sobre</Link>
                 <Link href="/integrantes" className='hover:text-[#4E60BC] transition-colors'>Integrantes</Link>
             </nav>
 

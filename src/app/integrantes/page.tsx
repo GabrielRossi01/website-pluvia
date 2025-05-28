@@ -4,9 +4,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import Image from 'next/image';
+import { TipoIntegrante } from '@/types/TipoIntegrante';
 
 export default function Integrantes() {
-    const integrantes = [
+    const integrantes: TipoIntegrante[] = [
         {
             nome: 'Gabriel Rossi',
             cargo: 'programming guru',
