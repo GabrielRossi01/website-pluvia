@@ -10,17 +10,17 @@ export default function Home() {
   const cards: TipoCard[] = [
     {
       img: '/semiarido.jpg',
-      title: 'Escassez no Semiárido',
+      title: 'Escassez no semiárido',
       desc: 'Milhões vivem em áreas com acesso limitado à água potável, especialmente no Nordeste brasileiro.',
     },
     {
       img: '/ondas-de-calor.jpg',
-      title: 'Ondas de Calor Extremo',
+      title: 'Ondas de calor extremo',
       desc: 'As mudanças climáticas intensificam as ondas de calor, afetando diretamente o abastecimento de água.',
     },
     {
       img: '/comunidade.jpeg',
-      title: 'Comunidades Isoladas',
+      title: 'Comunidades isoladas',
       desc: 'Famílias afastadas dos centros urbanos sofrem com a falta de acesso à infraestrutura básica de saneamento.',
     },
   ];
