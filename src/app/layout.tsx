@@ -12,7 +12,8 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Pluvia+",
-  description: "Solução portátil e sustentável para captar e purificar água atmosférica em regiões afetadas por calor extremo e escassez hídrica.",
+  description:
+    "Solução portátil e sustentável para captar e purificar água atmosférica em regiões afetadas por calor extremo e escassez hídrica.",
   keywords: [
     "Pluvia+",
     "coletor atmosférico",
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     "tecnologia sustentável",
     "água do ar",
     "tratamento de água portátil",
-    "resiliência climática"
+    "resiliência climática",
   ],
 };
 
@@ -34,9 +35,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body
-        className={`${poppins.variable} antialiased`}
-      >
+      <body className={`${poppins.variable} antialiased`}>
         <Header />
         {children}
         <Footer />

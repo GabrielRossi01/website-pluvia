@@ -1,12 +1,11 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
-import { TipoCard } from '@/types/TipoCard';
+import Image from "next/image";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { TipoCard } from "@/types/TipoCard";
 
 export default function Home() {
-
   const cards: TipoCard[] = [
     {
       img: '/semiarido.jpg',
@@ -52,7 +51,9 @@ export default function Home() {
           transition={{ delay: 0.4, duration: 0.6 }}
           className="text-lg text-gray-300 max-w-2xl mx-auto"
         >
-          Solução portátil e sustentável de captação e purificação de água do ar para regiões afetadas por eventos extremos de calor e escassez hídrica.
+          Solução portátil e sustentável de captação e purificação de água do ar
+          para regiões afetadas por eventos extremos de calor e escassez
+          hídrica.
         </motion.p>
 
         <motion.div
