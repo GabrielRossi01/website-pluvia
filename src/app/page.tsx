@@ -8,19 +8,19 @@ import { TipoCard } from "@/types/TipoCard";
 export default function Home() {
   const cards: TipoCard[] = [
     {
-      img: "/semiarido.jpg",
-      title: "Escassez no semiárido",
-      desc: "Milhões vivem em áreas com acesso limitado à água potável, especialmente no Nordeste brasileiro.",
+      img: '/semiarido.jpg',
+      title: 'Escassez no semiárido',
+      desc: 'Milhões vivem em áreas com acesso limitado à água potável, especialmente no Nordeste brasileiro.',
     },
     {
-      img: "/ondas-de-calor.jpg",
-      title: "Ondas de calor extremo",
-      desc: "As mudanças climáticas intensificam as ondas de calor, afetando diretamente o abastecimento de água.",
+      img: '/ondas-de-calor.jpg',
+      title: 'Ondas de calor extremo',
+      desc: 'As mudanças climáticas intensificam as ondas de calor, afetando diretamente o abastecimento de água.',
     },
     {
-      img: "/comunidade.jpeg",
-      title: "Comunidades isoladas",
-      desc: "Famílias afastadas dos centros urbanos sofrem com a falta de acesso à infraestrutura básica de saneamento.",
+      img: '/comunidade.jpeg',
+      title: 'Comunidades isoladas',
+      desc: 'Famílias afastadas dos centros urbanos sofrem com a falta de acesso à infraestrutura básica de saneamento.',
     },
   ];
 
