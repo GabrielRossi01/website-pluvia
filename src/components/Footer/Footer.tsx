@@ -68,7 +68,7 @@ export default function Footer() {
                             />
                             <button
                                 type="submit"
-                                className="w-full py-2 rounded-md bg-gradient-to-r from-[#7F5AF0] to-[#BF6464] font-bold text-white cursor-pointer hover:from-[#BF6464] hover:to-[#7F5AF0] transition duration-300 hover:from-[#BF6464] hover:to-[#7F5AF0]"
+                                className="w-full py-2 rounded-md bg-gradient-to-r from-[#7F5AF0] to-[#BF6464] font-medium text-white cursor-pointer hover:from-[#BF6464] hover:to-[#7F5AF0] transition duration-300 hover:from-[#BF6464] hover:to-[#7F5AF0]"
                             >
                                 Enviar
                             </button>

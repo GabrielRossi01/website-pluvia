@@ -1,27 +1,26 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
-import { TipoCard } from '@/types/TipoCard';
+import Image from "next/image";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { TipoCard } from "@/types/TipoCard";
 
 export default function Home() {
-
   const cards: TipoCard[] = [
     {
-      img: '/semiarido.jpg',
-      title: 'Escassez no Semiárido',
-      desc: 'Milhões vivem em áreas com acesso limitado à água potável, especialmente no Nordeste brasileiro.',
+      img: "/semiarido.jpg",
+      title: "Escassez no semiárido",
+      desc: "Milhões vivem em áreas com acesso limitado à água potável, especialmente no Nordeste brasileiro.",
     },
     {
-      img: '/ondas-de-calor.jpg',
-      title: 'Ondas de Calor Extremo',
-      desc: 'As mudanças climáticas intensificam as ondas de calor, afetando diretamente o abastecimento de água.',
+      img: "/ondas-de-calor.jpg",
+      title: "Ondas de calor extremo",
+      desc: "As mudanças climáticas intensificam as ondas de calor, afetando diretamente o abastecimento de água.",
     },
     {
-      img: '/comunidade.jpeg',
-      title: 'Comunidades Isoladas',
-      desc: 'Famílias afastadas dos centros urbanos sofrem com a falta de acesso à infraestrutura básica de saneamento.',
+      img: "/comunidade.jpeg",
+      title: "Comunidades isoladas",
+      desc: "Famílias afastadas dos centros urbanos sofrem com a falta de acesso à infraestrutura básica de saneamento.",
     },
   ];
 
@@ -52,7 +51,9 @@ export default function Home() {
           transition={{ delay: 0.4, duration: 0.6 }}
           className="text-lg text-gray-300 max-w-2xl mx-auto"
         >
-          Solução portátil e sustentável de captação e purificação de água do ar para regiões afetadas por eventos extremos de calor e escassez hídrica.
+          Solução portátil e sustentável de captação e purificação de água do ar
+          para regiões afetadas por eventos extremos de calor e escassez
+          hídrica.
         </motion.p>
 
         <motion.div
