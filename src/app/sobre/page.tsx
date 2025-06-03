@@ -16,7 +16,7 @@ export default function Sobre() {
     {
       title: "Análise de Dados",
       description:
-        "Acompanhamento da produção de água com gráficos diários, semanais e mensais. Exibição de dados em tempo real sobre o desempenho do equipamento.",
+        "Acompanhamento da produção de água com gráficos diários, semanais e mensais.",
       icon: <FaChartLine className="w-8 h-8 text-[#7F5AF0]" />,
     },
     {
@@ -26,9 +26,9 @@ export default function Sobre() {
       icon: <FaLeaf className="w-8 h-8 text-[#7F5AF0]" />,
     },
     {
-      title: "Integração com APIs Meteorológicas",
+      title: "Integração com APIs Java",
       description:
-        "Conexão com plataformas climáticas para prever os melhores momentos de coleta e sugerir locais estratégicos para posicionamento do equipamento.",
+        "Conexão com API desenvolvida em Java pela equipe de Back-End, responsável por fornecer dados meteorológicos para prever os melhores momentos de coleta de água da chuva e sugerir locais estratégicos para o posicionamento do equipamento..",
       icon: <FaCloudSun className="w-8 h-8 text-[#7F5AF0]" />,
     },
   ];

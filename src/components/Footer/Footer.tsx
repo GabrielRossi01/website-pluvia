@@ -83,7 +83,7 @@ export default function Footer() {
                         <span>Política de Privacidade</span>
                         <span>Termos de serviço</span>
                     </div>
-                    <p><span className="font-bold text-white">pluvia+</span> © 2025 Todos os direitos reservados</p>
+                    <p> © 2025 Todos os direitos reservados</p>
                 </div>
             </footer>
         </>
