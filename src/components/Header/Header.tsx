@@ -9,6 +9,7 @@ import { HiMenu } from 'react-icons/hi';
 export default function Header() {
 
     const [open, setOpen] = useState(false);
+
     const pathname = usePathname();
 
     return (
@@ -34,7 +35,7 @@ export default function Header() {
             <nav className={`
                     absolute md:static top-20 left-6 right-6 bg-zinc-900/80 md:bg-transparent p-4 md:p-0 
                     rounded-lg md:rounded-none flex flex-col md:flex-row items-center gap-4 md:gap-8 
-                    text-sm font-light transition-all duration-300 ease-in-out 
+                    text-sm font-normal transition-all duration-300 ease-in-out 
                     ${open ? 'block' : 'hidden md:flex'}
                 `}>
                 <Link

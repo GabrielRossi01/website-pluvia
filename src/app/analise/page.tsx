@@ -38,6 +38,7 @@ const dadosMensais = [
 ];
 
 export default function Analise() {
+    
     const [periodo, setPeriodo] = useState<"diario" | "semanal" | "mensal">("diario");
 
     const getData = () => {

@@ -7,6 +7,7 @@ import Image from 'next/image';
 import { TipoIntegrante } from '@/types/TipoIntegrante';
 
 export default function Integrantes() {
+    
     const integrantes: TipoIntegrante[] = [
         {
             nome: 'Gabriel Rossi',

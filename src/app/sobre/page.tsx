@@ -6,6 +6,7 @@ import { TipoSecao } from "@/types/TipoSecao";
 import { FaChartLine, FaCloudSun, FaLeaf, FaTint } from "react-icons/fa";
 
 export default function Sobre() {
+  
   const sections: TipoSecao[] = [
     {
       title: "Como funciona o C.A.P.T.A.?",
@@ -16,7 +17,7 @@ export default function Sobre() {
     {
       title: "Análise de Dados",
       description:
-        "Acompanhamento da produção de água com gráficos diários, semanais e mensais.",
+        "Simulação do acompanhamento da produção de água com gráficos diários, semanais e mensais.",
       icon: <FaChartLine className="w-8 h-8 text-[#7F5AF0]" />,
     },
     {
@@ -28,14 +29,14 @@ export default function Sobre() {
     {
       title: "Integração com APIs Java",
       description:
-        "Conexão com API desenvolvida em Java pela equipe de Back-End, responsável por fornecer dados meteorológicos para prever os melhores momentos de coleta de água da chuva e sugerir locais estratégicos para o posicionamento do equipamento..",
+        "Conexão com API desenvolvida em Java, responsável por fornecer dados meteorológicos para prever os melhores momentos de coleta de água da chuva e sugerir locais estratégicos para o posicionamento do equipamento.",
       icon: <FaCloudSun className="w-8 h-8 text-[#7F5AF0]" />,
     },
   ];
 
   return (
     <div className="min-h-screen mt-52 text-center px-6 pb-20">
-      
+
       <motion.h1
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
