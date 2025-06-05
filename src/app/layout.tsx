@@ -13,7 +13,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Pluvia+",
   description:
-    "Solução portátil e sustentável para captar e purificar água atmosférica em regiões afetadas por calor extremo e escassez hídrica.",
+    "Produto portátil e sustentável para captar e purificar água atmosférica em regiões afetadas por calor extremo e escassez hídrica.",
   keywords: [
     "Pluvia+",
     "coletor atmosférico",

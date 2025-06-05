@@ -9,7 +9,7 @@ export default function Sobre() {
   
   const sections: TipoSecao[] = [
     {
-      title: "Como funciona o C.A.P.T.A.?",
+      title: "Como funciona o C.A.P.T.A?",
       description:
         "O Coletor Atmosférico Portátil de Tratamento de Água capta a umidade do ar, realiza a filtragem e purificação, gerando água potável. Ideal para comunidades com escassez hídrica.",
       icon: <FaTint className="w-8 h-8 text-[#7F5AF0]" />,
@@ -23,7 +23,7 @@ export default function Sobre() {
     {
       title: "Impacto Social e Ambiental",
       description:
-        "Mostra litros de água gerados, CO₂ economizado ao evitar transporte de água e número de pessoas beneficiadas com o uso do C.A.P.T.A.",
+        "Mostra litros de água gerados, CO₂ economizado ao evitar transporte de água e número de pessoas beneficiadas com o uso do C.A.P.T.A",
       icon: <FaLeaf className="w-8 h-8 text-[#7F5AF0]" />,
     },
     {
@@ -62,7 +62,7 @@ export default function Sobre() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 + index * 0.2, duration: 0.6 }}
-            className="bg-[#1e1e1e60] rounded-2xl p-6 shadow-md text-left"
+            className="bg-[#1e1e1e60] rounded-2xl p-6 shadow-md text-left mt-5"
           >
             <div className="flex items-center gap-3 mb-4">
               {item.icon}
