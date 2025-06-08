@@ -7,11 +7,12 @@ import {
 } from 'recharts'
 
 import { motion } from "framer-motion";
+import { DispositivosData, VolumesData } from '@/types/TipoDispositivo';
 
 export default function Dashboard() {
 
-    const [dispositivos, setDispositivos] = useState<any>(null)
-    const [volumes, setVolumes] = useState<any>(null)
+    const [dispositivos, setDispositivos] = useState<DispositivosData | null>(null)
+    const [volumes, setVolumes] = useState<VolumesData | null>(null)
 
     useEffect(() => {
         fetch('/api/dispositivos')

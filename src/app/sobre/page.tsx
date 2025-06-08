@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { TipoSecao } from "@/types/TipoSecao";
-import { FaChartLine, FaCloudSun, FaLeaf, FaTint, FaClipboardList, FaTachometerAlt, FaMapMarkedAlt } from "react-icons/fa";
+import { FaClipboardList, FaCloudSun, FaLeaf, FaTachometerAlt, FaTint } from "react-icons/fa";
 
 export default function Sobre() {
 

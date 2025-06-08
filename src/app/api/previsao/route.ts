@@ -8,6 +8,7 @@ export async function GET() {
         const data = await res.json();
         return NextResponse.json(data);
     } catch (error) {
+        console.error('Erro ao buscar dados:', error);
         return NextResponse.json({ error: 'Erro ao buscar dados' }, { status: 500 });
     }
 }
