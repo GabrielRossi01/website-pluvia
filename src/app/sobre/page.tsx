@@ -3,10 +3,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { TipoSecao } from "@/types/TipoSecao";
-import { FaChartLine, FaCloudSun, FaLeaf, FaTint } from "react-icons/fa";
+import { FaChartLine, FaCloudSun, FaLeaf, FaTint, FaClipboardList, FaTachometerAlt, FaMapMarkedAlt } from "react-icons/fa";
 
 export default function Sobre() {
-  
+
   const sections: TipoSecao[] = [
     {
       title: "Como funciona o C.A.P.T.A?",
@@ -15,22 +15,28 @@ export default function Sobre() {
       icon: <FaTint className="w-8 h-8 text-[#7F5AF0]" />,
     },
     {
-      title: "Análise de Dados",
+      title: "Dashboard",
       description:
-        "Simulação do acompanhamento da produção de água com gráficos diários, semanais e mensais.",
-      icon: <FaChartLine className="w-8 h-8 text-[#7F5AF0]" />,
+        "Visualize gráficos de indicadores em tempo real da produção de quantidade por modelo e de volume por dispositivo.",
+      icon: <FaTachometerAlt className="w-8 h-8 text-[#7F5AF0]" />,
     },
     {
-      title: "Impacto Social e Ambiental",
+      title: "Gestão de relatórios",
       description:
-        "Mostra litros de água gerados, CO₂ economizado ao evitar transporte de água e número de pessoas beneficiadas com o uso do C.A.P.T.A",
-      icon: <FaLeaf className="w-8 h-8 text-[#7F5AF0]" />,
+        "Visualize e exclua relatórios gerados por usuários com facilidade.",
+      icon: <FaClipboardList className="w-8 h-8 text-[#7F5AF0]" />,
     },
     {
-      title: "Integração com APIs Java",
+      title: "Previsão climática",
       description:
-        "Conexão com API desenvolvida em Java, responsável por fornecer dados meteorológicos para prever os melhores momentos de coleta de água da chuva e sugerir locais estratégicos para o posicionamento do equipamento.",
+        "Exibe previsões climáticas simuladas para auxiliar em decisões operacionais.",
       icon: <FaCloudSun className="w-8 h-8 text-[#7F5AF0]" />,
+    },
+    {
+      title: "Painel de benefícios ambientais",
+      description:
+        "Mostra litros de água gerados, CO₂ economizado e número de pessoas beneficiadas com o uso do C.A.P.T.A.",
+      icon: <FaLeaf className="w-8 h-8 text-[#7F5AF0]" />,
     },
   ];
 
@@ -61,7 +67,7 @@ export default function Sobre() {
             key={index}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3 + index * 0.2, duration: 0.6 }}
+            transition={{ delay: 0.3 + index * 0.1, duration: 0.6 }}
             className="bg-[#1e1e1e60] rounded-2xl p-6 shadow-md text-left mt-5"
           >
             <div className="flex items-center gap-3 mb-4">

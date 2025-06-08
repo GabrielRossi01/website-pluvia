@@ -56,7 +56,7 @@ export default function Dashboard() {
                 transition={{ delay: 0.2, duration: 0.6 }}
                 className="text-base sm:text-lg text-gray-300 max-w-xl mx-auto mb-10"
             >
-                Indicadores em tempo real da produção e rede de dispositivos
+                Indicadores em tempo real da produção de quantidade por modelo e de volume por dispositivo
             </motion.p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

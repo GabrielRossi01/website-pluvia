@@ -46,14 +46,14 @@ export default function Impacto() {
                 transition={{ delay: 0.2, duration: 0.6 }}
                 className="text-base sm:text-lg text-gray-300 max-w-xl mx-auto mb-10"
             >
-                Indicadores da produção e rede de dispositivos
+                Indicadores de  litros de água gerados, CO₂ economizado e número de pessoas beneficiadas com o uso do C.A.P.T.A
             </motion.p>
 
 
             <section className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                 <div className="bg-[#1e1e1e60] rounded-xl shadow p-4">
                     <h2 className="text-lg text-transparent bg-clip-text bg-gradient-to-r from-[#7F5AF0] to-[#BF6464] font-semibold mb-2">Total CO₂ economizado</h2>
-                    <p className="text-3xl text-transparent bg-clip-text bg-gradient-to-r from-white to-[#4E60BC] font-semibold mb-2">{totais?.totalCO2.toFixed(2)} kg</p>
+                    <p className="text-3xl text-transparent bg-clip-text bg-gradient-to-r from-white to-[#4E60BC] font-semibold mb-2">{totais?.totalCO2.toFixed(2)} kg/m³</p>
                 </div>
 
                 <div className="bg-[#1e1e1e60] rounded-xl shadow p-4">
