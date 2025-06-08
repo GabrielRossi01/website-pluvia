@@ -51,15 +51,51 @@ export default function Header() {
                 </Link>
 
                 <Link
-                    href="/analise"
+                    href="/dashboard"
                     className={`relative transition-colors duration-300 pb-1 
-                        ${pathname === '/analise' ? 'text-[#4E60BC]' : 'text-white'} 
+                        ${pathname === '/dashboard' ? 'text-[#4E60BC]' : 'text-white'} 
                         after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] 
                         after:bg-[#4E60BC] after:scale-x-0 hover:after:scale-x-100 
                         after:origin-left after:transition-transform 
-                        ${pathname === '/analise' ? 'after:scale-x-100' : ''}`}
+                        ${pathname === '/dashboard' ? 'after:scale-x-100' : ''}`}
                 >
-                    Análise
+                    Dashboard
+                </Link>
+
+                <Link
+                    href="/relatorios"
+                    className={`relative transition-colors duration-300 pb-1 
+                        ${pathname === '/relatorios' ? 'text-[#4E60BC]' : 'text-white'} 
+                        after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] 
+                        after:bg-[#4E60BC] after:scale-x-0 hover:after:scale-x-100 
+                        after:origin-left after:transition-transform 
+                        ${pathname === '/relatorios' ? 'after:scale-x-100' : ''}`}
+                >
+                    Relatórios
+                </Link>
+
+                <Link
+                    href="/previsao"
+                    className={`relative transition-colors duration-300 pb-1 
+                        ${pathname === '/previsao' ? 'text-[#4E60BC]' : 'text-white'} 
+                        after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] 
+                        after:bg-[#4E60BC] after:scale-x-0 hover:after:scale-x-100 
+                        after:origin-left after:transition-transform 
+                        ${pathname === '/previsao' ? 'after:scale-x-100' : ''}`}
+                >
+                    Previsão climática
+                </Link>
+
+                <Link
+                    href="/painel"
+                    className={`relative transition-colors duration-300 pb-1 
+                        ${pathname === '/painel' ? 'text-[#4E60BC]' : 'text-white'} 
+                        after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] 
+                        after:bg-[#4E60BC] after:scale-x-0 hover:after:scale-x-100 
+                        after:origin-left after:transition-transform 
+                        ${pathname === '/painel' ? 'after:scale-x-100' : ''}`}
+                >
+                    Painel
                 </Link>
 
                 <Link
