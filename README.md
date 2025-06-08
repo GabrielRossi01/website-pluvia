@@ -53,13 +53,13 @@ A aplicação foi hospedada com sucesso na plataforma Vercel.
 
 *Clique no ícone abaixo para acessar o site hospedado:*
 
-[![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel)]()
+[![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel)](https://website-pluvia.vercel.app/)
 
 ## 📹 Vídeo no YouTube
 
 Assista à demonstração da aplicação, com as principais funcionalidades e navegação entre telas:
 
-🔗 Acesse o vídeo aqui: [Vídeo explicativo]()
+🔗 Acesse o vídeo aqui: [Vídeo explicativo](https://youtu.be/UA7n8dZkl-o)
 
 
 ## 🤔 Como rodar o projeto?
